@@ -1,3 +1,14 @@
+#-*- coding: utf-8 -*-
+# @Author:  Aigboje Ohiorenua
+# @Date:  2022-06-30 09:28:28
+# 
+#    /\`.   ,'/\
+#   //\\0 " 0//\\       @Last Modified by:   Your name
+#  //    ,^.    \\      @Last Modified time: 2022-06-30 12:45:37
+#  \\           //
+#   \\         //
+#
+
 """
 Django settings for drinks project.
 
@@ -37,6 +48,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    
+    'drinks',
 ]
 
 MIDDLEWARE = [
