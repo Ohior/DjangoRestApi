@@ -4,7 +4,7 @@
 # 
 #    /\`.   ,'/\
 #   //\\0 " 0//\\       @Last Modified by:   Your name
-#  //    ,^.    \\      @Last Modified time: 2022-06-30 12:45:37
+#  //    ,^.    \\      @Last Modified time: 2022-06-30 12:52:08
 #  \\           //
 #   \\         //
 #
@@ -40,7 +40,7 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
+# add rest api to app
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     'drinks',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
